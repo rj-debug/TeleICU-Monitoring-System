@@ -57,16 +57,19 @@ pip install opencv-python numpy tensorflow torch easyocr ultralytics
 Intensivity Detection:
 
 Model: YOLOv8 (best_small.pt)
+
 Functionality: This model is designed to detect individuals within an ICU setting, distinguishing between different categories such as intensities, family members, and patients. By processing video frames with an input shape of (1, 3, 640, 640), the model helps in identifying and tracking the presence of these entities in real-time. This is crucial for monitoring the ICU environment and ensuring that only authorized personnel are present.
 
 Chest Pain Detection:
 
 Model: YOLO Nano-S (best_chest.pt)
+
 Functionality: This model scans every 3rd frame of the video feed to detect signs of chest pain in patients. If the model identifies a chest pain indication within a patient bounding box for a continuous duration of 3 seconds, it triggers an alert. The input shape for this model is (1, 3, 416, 416). This feature is essential for promptly responding to critical conditions and providing immediate medical attention.
 
 Fall Detection:
 
 Model: PoseNet 2.0 (tflite-model-maker-falldetect-model.tflite)
+
 Functionality: The fall detection model uses PoseNet 2.0 to analyze every 3rd frame for any indications of a fall. By monitoring the patient's posture and movements, it can accurately detect falls and subsequently trigger alerts to ensure quick response times. This feature is vital for preventing injuries and ensuring patient safety.
 
 Vital Signs Detection:

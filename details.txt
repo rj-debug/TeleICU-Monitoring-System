@@ -1,0 +1,14 @@
+Configurations:
+- python version >=3.8  for the use of ultralytics
+- pytorch version >=1.8
+- ultralytics version 8.0.196 for training models
+
+dataset:
+fall detection - in repo under fall dataset folder
+intensivity, monitor, vital, chest - roboflow
+
+Roboflow project ids:
+- Intensivity detection - project = rf.workspace("doctor-zyz1n").project("doctors-rjvm9")
+- Monitor Detection - project = rf.workspace("numnum-7whop").project("numnum")
+- Vital Detection - project = rf.workspace("some-vtqjx").project("vvvv-9wcvt")
+- Chest Detection - project = rf.workspace("eval4-q1og7").project("teleicu-hd")

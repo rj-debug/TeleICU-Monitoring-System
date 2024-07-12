@@ -3,6 +3,10 @@
 
 The TeleICU system is designed to enhance the quality and efficiency of intensive care units (ICUs) by leveraging advanced deep learning techniques. This innovative system aims to address critical challenges in patient monitoring, diagnosis, and treatment within ICUs by providing real-time analysis and actionable insights through video feeds and other data sources.
 
+## Screenshots
+
+![Thumbnail](https://github.com/user-attachments/assets/71140960-f53e-4f57-85d5-2a8c8f497985)
+
 # Key Components:
 
 Real-Time Video Analysis:
@@ -34,12 +38,6 @@ Also make sure to have "Python Version >=3.8".
 pip install opencv-python numpy tensorflow torch easyocr ultralytics
 
 ```
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
 
 
 # 🚀 Demo Video:

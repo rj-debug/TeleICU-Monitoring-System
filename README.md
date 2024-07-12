@@ -103,7 +103,7 @@ To run tests:
 
 - Download the github repo.
 - Extract the folders from it.
-- Open VScode and in the open folder section select the downloaded github folder.
+- Open VScode and in the open folder section select the downloaded github folder "TeleICU-Monitoring-System-main".
 - Enable Virtual Environment in VScode.
 - Install the libraries said in the Installation section.
 - Run the "TeleICU_main.ipynb" and run the function that you want.

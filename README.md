@@ -91,6 +91,8 @@ And the configuration, version details and dataset used are in the "details.txt"
 
 And ipnyb file to "convert .pt files to .onnx files" is also available in repo in "onyx_conversion.ipynb".
 
+All the files used for training the models are available in the "training files" file.
+
 
 ## Running Tests
 

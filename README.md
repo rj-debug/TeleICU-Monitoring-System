@@ -1,5 +1,5 @@
 
-# Innovative TeleICU system using Deep Learning approaches
+# Innovative Monitoring System for TeleICU Patients Using Video Processing and Deep Learning
 
 The TeleICU system is designed to enhance the quality and efficiency of intensive care units (ICUs) by leveraging advanced deep learning techniques. This innovative system aims to address critical challenges in patient monitoring, diagnosis, and treatment within ICUs by providing real-time analysis and actionable insights through video feeds and other data sources.
 

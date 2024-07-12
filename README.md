@@ -68,7 +68,7 @@ Functionality: This model scans every 3rd frame of the video feed to detect sign
 
 Fall Detection:
 
-Model: PoseNet 2.0 (fall.tflite)
+Model: PoseNet 2.0 (tflite-model-maker-falldetect-model.tflite)
 Functionality: The fall detection model uses PoseNet 2.0 to analyze every 3rd frame for any indications of a fall. By monitoring the patient's posture and movements, it can accurately detect falls and subsequently trigger alerts to ensure quick response times. This feature is vital for preventing injuries and ensuring patient safety.
 
 Vital Signs Detection:
@@ -87,11 +87,11 @@ If the HR value is below 60 or above 155, an alert is triggered, indicating pote
 
 ## Documentation
 
-The inner working and architecure of the models used in this system are all described in the "document" file.
+The inner working and architecure of the models used in this system are all described in the "Intel Unnati _ Idea Submission" file.
 
 And the configuration, version details and dataset used are in the "details.txt".
 
-And ipnyb file to "convert .pt files to .onnx files" is also available in repo.
+And ipnyb file to "convert .pt files to .onnx files" is also available in repo in "onyx_conversion.ipynb".
 
 
 ## Running Tests
@@ -103,7 +103,7 @@ To run tests:
 - Open VScode and in the open folder section select the downloaded github folder.
 - Enable Virtual Environment in VScode.
 - Install the libraries said in the Installation section.
-- Run the functions that you want.
+- Run the "TeleICU_main.ipynb" and run the function that you want.
 
 To test new videos:
 
